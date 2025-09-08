@@ -12,3 +12,6 @@ COPY ./public/badgerguard.js /usr/local/apache2/htdocs/tools/s25/badgerguard/bad
 
 RUN mkdir -p /usr/local/apache2/htdocs/tools/su25/badgerguard
 COPY ./public/badgerguardv2.js /usr/local/apache2/htdocs/tools/su25/badgerguard/badgerguard.js
+
+RUN mkdir -p /usr/local/apache2/htdocs/tools/f25/badgerguard
+COPY ./public/badgerguardv2.js /usr/local/apache2/htdocs/tools/f25/badgerguard/badgerguard.js
